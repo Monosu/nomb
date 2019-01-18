@@ -1,1 +1,16 @@
-
+spring:
+  application:
+    name: product
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.25.128:3306/easysell?characterEncoding=utf-8&userSSL=false
+#    url: jdbc:mysql://192.168.25.124:3306/sell?characterEncoding=utf-8&userSSL=false
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+  rabbitmq:
+    host: 192.168.25.128
+    port: 5672
+    username: admin
+    password: 123456
