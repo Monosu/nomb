@@ -2,10 +2,10 @@ spring:
   application:
     name: product
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.25.128:3306/easysell?characterEncoding=utf-8&userSSL=false
     username: root
     password: root
+    driver-class-name: com.mysql.jdbc.Driver
   jpa:
     show-sql: true
   rabbitmq:
